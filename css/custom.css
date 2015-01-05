@@ -1,0 +1,8 @@
+.padded {
+    border-radius: 10px;
+    padding:        5px;
+}
+
+.imgbg {
+    background-image: url(../images/bg.jpg);
+}
