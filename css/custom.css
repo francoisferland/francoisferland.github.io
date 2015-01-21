@@ -6,3 +6,8 @@
 .imgbg {
     background-image: url(../images/bg.jpg);
 }
+
+.jumbotron h1 {
+    /*font-family: serif;*/
+    font-weight: bold;
+}
