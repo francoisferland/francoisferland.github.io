@@ -42,12 +42,50 @@ plugins:
 #   - vendor/ruby/
 #
 
+analytics:
+    provider: "google"
+    google:
+        tracking_id: "UA-116162093-1"
+
+collections:
+    pages:
+        output      : true
+        permalink   : /:path
+
 # minimalist-mistakes settings
+
+paginate: 3 # Necessary for posts to show up on home page.
+
 author:
     name    : "François Ferland"
     avatar  : "/assets/images/bio-photo.jpg"
-    bio     : "Assistant professor at Université de Sherbrooke, robotics researcher."
-    uri     : "https://francoisferland.com"
+    bio     : "Assistant professor at Université de Sherbrooke, 
+               robotics researcher at IntRoLab."
+    uri     : "http://francoisferland.com"
+
+defaults:
+  # _posts
+    - scope:
+        path: ""
+        type: posts
+      values:
+        layout          : single
+        author_profile  : true
+        read_time       : false
+        comments        : false
+        share           : true
+        related         : true
+    # _pages
+    - scope:
+        path: ""
+        type: pages
+      values:
+        layout          : single
+        author_profile  : true
+        read_time       : false
+        comments        : false
+        share           : true
+        related         : true
 
 
 

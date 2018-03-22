@@ -1,0 +1,10 @@
+---
+layout: single
+title:  "New website" 
+date:   2018-03-21 12:20:00 -0400
+---
+
+Welcome to my new personal site! It's quite bare right now, but I will update it
+over the following weeks.
+In the meantime, you can visit our lab page,
+[IntRoLab](http://introlab.3it.usherbrooke.ca).
